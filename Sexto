@@ -1,0 +1,24 @@
+Inicio
+	var edad
+	var aux1=0, i=0
+	var aux2=0, j=0
+	var personas=0
+	var promedioMayor
+	var promedioMenor
+	mientras(persnas<=100)
+		Escribir "Ingrese la edad "
+		leer(edad)
+		si(edad<25)
+
+			aux1=aux1+edad
+			i++
+		sino
+			aux2=aux2+edad
+			j++
+
+	finmientras
+		promedioMenor=aux1/i
+		promedioMayor=aux2/j
+	mostrar(La edad promedia de los menores a 25 años es "promedioMenor")
+	mostrar(La edad promedia de los mayores a 25 años es "promedioMayor")			
+Fin
